@@ -1,0 +1,4 @@
+# The Tina build step (schema generation + TinaCloud indexing) needs more
+# than Node's default ~2GB heap on CI. https://github.com/tinacms/tinacms/issues/5689
+[build.environment]
+  NODE_OPTIONS = "--max-old-space-size=4096"
