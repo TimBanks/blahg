@@ -77,6 +77,9 @@ This file is in BETA. Please test and contribute to the discussion:
 				<title>Your Web Feed</title>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+				<link rel="preconnect" href="https://fonts.googleapis.com"/>
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+				<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/>
 				<style type="text/css">
 					:root {
 						--white: #faf5f6;
@@ -86,12 +89,12 @@ This file is in BETA. Please test and contribute to the discussion:
 						--transblack: rgba(37, 37, 37, 0.7);
 						--moretransblack: rgba(37, 37, 37, 0.1);
 						--gray: #6b6b6b;
-						--highlight: #e5ffc3;
-						--red: #e4002b;
-						--green: #24d05a;
-						--pink: #eb4888;
-						--blue: #10a2f5;
-						--yellow: #e9bc3f;
+						--highlight: #d396a6;
+						--red: #fa6e82;
+						--green: #09a1a1;
+						--pink: #fa6e82;
+						--blue: #5484a4;
+						--yellow: #f6c992;
 					}
 
 					::selection {
@@ -112,7 +115,10 @@ This file is in BETA. Please test and contribute to the discussion:
 
 					html,
 					body,
-					button,
+					button {
+						font-family: "Karla", sans-serif;
+					}
+
 					code,
 					input {
 						font-family: monospace;
